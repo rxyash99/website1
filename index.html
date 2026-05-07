@@ -1,0 +1,2176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dental Square — Best Multispeciality Dental Clinic in Sangli</title>
+  <meta name="description" content="Dental Square Multispeciality Dental Clinic in Sangli — Best Orthodontic Centre & Implant Clinic. Rated 5.0 on Google. Dr. Akash Lavate & Dr. Priyanka. Call 099756 40120." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    /* ============================================================
+       RESET & BASE
+    ============================================================ */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; font-size: 16px; }
+    body {
+      font-family: 'Inter', sans-serif;
+      color: #1a1a2e;
+      background: #fff;
+      overflow-x: hidden;
+      line-height: 1.6;
+    }
+    img { max-width: 100%; display: block; }
+    a { text-decoration: none; color: inherit; }
+    ul { list-style: none; }
+
+    /* ============================================================
+       CSS VARIABLES
+    ============================================================ */
+    :root {
+      --navy: #0b2447;
+      --navy-light: #19376d;
+      --teal: #0ea5a0;
+      --teal-light: #2dd4bf;
+      --gold: #d4a017;
+      --gold-light: #f5c842;
+      --white: #ffffff;
+      --off-white: #f8fafc;
+      --border: #e2e8f0;
+      --text-mid: #334155;
+      --text-light: #64748b;
+      --shadow-sm: 0 2px 8px rgba(11,36,71,0.08);
+      --shadow-md: 0 8px 32px rgba(11,36,71,0.12);
+      --shadow-lg: 0 24px 64px rgba(11,36,71,0.2);
+      --radius: 16px;
+      --radius-sm: 8px;
+      --radius-xl: 28px;
+    }
+
+    /* ============================================================
+       UTILITY
+    ============================================================ */
+    .container { max-width: 1200px; margin: 0 auto; padding: 0 28px; }
+    .section-label {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: linear-gradient(135deg, rgba(14,165,160,0.12), rgba(14,165,160,0.05));
+      border: 1px solid rgba(14,165,160,0.25);
+      color: var(--teal); font-size: 0.75rem; font-weight: 700;
+      letter-spacing: 0.14em; text-transform: uppercase;
+      padding: 6px 16px; border-radius: 50px; margin-bottom: 16px;
+    }
+    .section-label::before { content: "●"; font-size: 0.45rem; animation: pulse-dot 2s ease-in-out infinite; }
+    .section-title {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(2rem, 4vw, 3rem); font-weight: 700;
+      color: var(--navy); line-height: 1.2; margin-bottom: 16px;
+    }
+    .section-subtitle {
+      font-size: 1.05rem; color: var(--text-light);
+      max-width: 560px; line-height: 1.8;
+    }
+    .btn {
+      display: inline-flex; align-items: center; justify-content: center;
+      gap: 8px; padding: 14px 32px; border-radius: 50px;
+      font-weight: 600; font-size: 0.95rem;
+      transition: all 0.3s ease; cursor: pointer; border: none;
+      white-space: nowrap; text-decoration: none;
+    }
+    .btn-primary {
+      background: linear-gradient(135deg, var(--teal), #0891b2);
+      color: #fff; box-shadow: 0 4px 20px rgba(14,165,160,0.4);
+    }
+    .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 8px 30px rgba(14,165,160,0.55); }
+    .btn-white {
+      background: #fff; color: var(--navy);
+      box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+    }
+    .btn-white:hover { transform: translateY(-2px); box-shadow: 0 8px 30px rgba(0,0,0,0.22); }
+
+    /* ============================================================
+       KEYFRAME ANIMATIONS
+    ============================================================ */
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(40px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeInLeft {
+      from { opacity: 0; transform: translateX(-50px); }
+      to { opacity: 1; transform: translateX(0); }
+    }
+    @keyframes fadeInRight {
+      from { opacity: 0; transform: translateX(50px); }
+      to { opacity: 1; transform: translateX(0); }
+    }
+    @keyframes scaleIn {
+      from { opacity: 0; transform: scale(0.88); }
+      to { opacity: 1; transform: scale(1); }
+    }
+    @keyframes float {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-14px); }
+    }
+    @keyframes float-slow {
+      0%, 100% { transform: translateY(0px) rotate(0deg); }
+      50% { transform: translateY(-8px) rotate(2deg); }
+    }
+    @keyframes pulse-dot {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.5; transform: scale(1.4); }
+    }
+    @keyframes pulse-ring {
+      0% { box-shadow: 0 0 0 0 rgba(16,185,129,0.5); }
+      100% { box-shadow: 0 0 0 12px rgba(16,185,129,0); }
+    }
+    @keyframes shimmer-line {
+      0% { transform: translateX(-100%); }
+      100% { transform: translateX(200%); }
+    }
+    @keyframes spin-border {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+    @keyframes blob-morph {
+      0%,100% { border-radius: 60% 40% 30% 70%/60% 30% 70% 40%; }
+      25% { border-radius: 30% 60% 70% 40%/50% 60% 30% 60%; }
+      50% { border-radius: 50% 50% 40% 60%/40% 50% 60% 50%; }
+      75% { border-radius: 40% 60% 60% 40%/60% 40% 40% 60%; }
+    }
+    @keyframes gradient-shift {
+      0%, 100% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+    }
+    @keyframes count-flash {
+      0% { opacity: 0; transform: scale(0.6); }
+      60% { opacity: 1; transform: scale(1.08); }
+      100% { opacity: 1; transform: scale(1); }
+    }
+    @keyframes slide-reveal {
+      from { clip-path: inset(0 100% 0 0); }
+      to { clip-path: inset(0 0% 0 0); }
+    }
+    @keyframes wave {
+      0% { transform: rotate(0deg); }
+      10% { transform: rotate(14deg); }
+      20% { transform: rotate(-8deg); }
+      30% { transform: rotate(14deg); }
+      40% { transform: rotate(-4deg); }
+      50% { transform: rotate(10deg); }
+      60% { transform: rotate(0deg); }
+      100% { transform: rotate(0deg); }
+    }
+
+    /* Scroll-driven animations — no JS required */
+    @supports (animation-timeline: view()) {
+      .scroll-reveal {
+        animation: fadeInUp linear both;
+        animation-timeline: view();
+        animation-range: entry 0% entry 30%;
+      }
+      .scroll-reveal-left {
+        animation: fadeInLeft linear both;
+        animation-timeline: view();
+        animation-range: entry 0% entry 30%;
+      }
+      .scroll-reveal-right {
+        animation: fadeInRight linear both;
+        animation-timeline: view();
+        animation-range: entry 0% entry 30%;
+      }
+      .scroll-scale {
+        animation: scaleIn linear both;
+        animation-timeline: view();
+        animation-range: entry 0% entry 28%;
+      }
+    }
+    /* Fallback for browsers without scroll-driven animations */
+    @supports not (animation-timeline: view()) {
+      .scroll-reveal, .scroll-reveal-left, .scroll-reveal-right, .scroll-scale {
+        animation: fadeInUp 0.7s ease both;
+      }
+    }
+
+    /* Hero load animations */
+    .hero-load-1 { animation: fadeInLeft 0.9s cubic-bezier(0.22,1,0.36,1) 0.1s both; }
+    .hero-load-2 { animation: fadeInLeft 0.9s cubic-bezier(0.22,1,0.36,1) 0.25s both; }
+    .hero-load-3 { animation: fadeInLeft 0.9s cubic-bezier(0.22,1,0.36,1) 0.4s both; }
+    .hero-load-4 { animation: fadeInLeft 0.9s cubic-bezier(0.22,1,0.36,1) 0.55s both; }
+    .hero-load-5 { animation: fadeInLeft 0.9s cubic-bezier(0.22,1,0.36,1) 0.7s both; }
+    .hero-card-load { animation: scaleIn 1s cubic-bezier(0.22,1,0.36,1) 0.3s both; }
+
+    /* ============================================================
+       TOPBAR
+    ============================================================ */
+    .topbar {
+      background: var(--navy);
+      padding: 9px 0; font-size: 0.82rem;
+      color: rgba(255,255,255,0.7);
+    }
+    .topbar .container { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px; }
+    .topbar-left, .topbar-right { display: flex; align-items: center; gap: 20px; }
+    .topbar a { color: rgba(255,255,255,0.7); transition: color 0.2s; }
+    .topbar a:hover { color: var(--teal-light); }
+    .topbar-item { display: flex; align-items: center; gap: 6px; }
+    .topbar-item svg { opacity: 0.7; flex-shrink: 0; }
+    .open-pill {
+      background: linear-gradient(135deg, #10b981, #059669);
+      color: #fff; font-size: 0.7rem; font-weight: 700;
+      padding: 3px 10px; border-radius: 50px;
+      animation: pulse-ring 2s ease-in-out infinite;
+    }
+
+    /* ============================================================
+       NAVBAR
+    ============================================================ */
+    .navbar {
+      position: sticky; top: 0; z-index: 1000;
+      background: rgba(255,255,255,0.96);
+      backdrop-filter: blur(20px) saturate(180%);
+      border-bottom: 1px solid rgba(226,232,240,0.7);
+      box-shadow: 0 2px 20px rgba(11,36,71,0.06);
+    }
+    .navbar .container { display: flex; align-items: center; justify-content: space-between; height: 82px; }
+    .logo {
+      display: flex; align-items: center; gap: 0;
+      text-decoration: none;
+    }
+    .logo-img-wrap {
+      display: flex; align-items: center;
+      background: linear-gradient(135deg, #fff8f0 0%, #fff3e0 100%);
+      border: 1.5px solid rgba(237,137,54,0.18);
+      border-radius: 14px;
+      padding: 7px 14px;
+      box-shadow: 0 2px 14px rgba(237,137,54,0.13), 0 1px 4px rgba(0,0,0,0.06);
+      transition: box-shadow 0.3s, transform 0.3s;
+    }
+    .logo:hover .logo-img-wrap {
+      box-shadow: 0 4px 22px rgba(237,137,54,0.22), 0 2px 6px rgba(0,0,0,0.08);
+      transform: translateY(-1px);
+    }
+    .logo-img-real {
+      height: 52px; width: auto; display: block; object-fit: contain;
+    }
+    .logo-divider {
+      width: 1px; height: 44px;
+      background: linear-gradient(to bottom, transparent, rgba(14,165,160,0.25), transparent);
+      margin: 0 16px;
+    }
+    .logo-meta { display: flex; flex-direction: column; gap: 2px; }
+    .logo-meta-name {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.18rem; font-weight: 700; color: var(--navy); line-height: 1.2;
+      letter-spacing: -0.01em;
+    }
+    .logo-meta-tag {
+      font-size: 0.62rem; font-weight: 700; color: var(--teal);
+      text-transform: uppercase; letter-spacing: 0.09em;
+      white-space: nowrap;
+    }
+    .logo-img-footer {
+      height: 44px; width: auto; display: block; object-fit: contain;
+      background: #fff; border-radius: 10px; padding: 6px 12px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+    }
+    .logo-text { display: flex; flex-direction: column; line-height: 1.15; }
+    .logo-name {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.3rem; font-weight: 700; color: var(--navy);
+    }
+    .logo-tagline { font-size: 0.68rem; font-weight: 600; color: var(--teal); text-transform: uppercase; letter-spacing: 0.1em; }
+    .nav-links { display: flex; align-items: center; gap: 2px; }
+    .nav-links a {
+      font-size: 0.88rem; font-weight: 500; color: var(--text-mid);
+      padding: 8px 14px; border-radius: 8px; transition: all 0.2s;
+    }
+    .nav-links a:hover { color: var(--teal); background: rgba(14,165,160,0.07); }
+    .nav-right { display: flex; align-items: center; gap: 14px; }
+    .nav-phone {
+      display: flex; align-items: center; gap: 7px;
+      font-weight: 600; font-size: 0.88rem; color: var(--navy);
+      transition: color 0.2s; white-space: nowrap;
+    }
+    .nav-phone:hover { color: var(--teal); }
+    .nav-phone svg { color: var(--teal); }
+    /* Mobile menu */
+    .menu-toggle { display: none; }
+    .hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; padding: 8px; }
+    .hamburger span { display: block; width: 24px; height: 2px; background: var(--navy); border-radius: 2px; transition: all 0.3s; }
+    .mobile-nav {
+      display: none; flex-direction: column;
+      background: #fff; border-top: 1px solid var(--border);
+      padding: 16px 28px 24px; gap: 2px;
+    }
+    .mobile-nav a { padding: 12px 0; font-size: 1rem; font-weight: 500; color: var(--text-mid); border-bottom: 1px solid var(--border); display: block; }
+    .mobile-nav a:last-child { border-bottom: none; }
+    .menu-toggle:checked ~ .mobile-nav { display: flex; }
+
+    /* ============================================================
+       HERO
+    ============================================================ */
+    .hero {
+      min-height: 100vh;
+      background: linear-gradient(135deg, #060e1e 0%, #0b2447 45%, #0e3872 100%);
+      position: relative; overflow: hidden;
+      display: flex; align-items: center;
+      padding: 80px 0 60px;
+    }
+    /* Animated gradient background */
+    .hero-gradient-bg {
+      position: absolute; inset: 0;
+      background: radial-gradient(ellipse at 15% 60%, rgba(14,165,160,0.18) 0%, transparent 55%),
+                  radial-gradient(ellipse at 85% 15%, rgba(212,160,23,0.1) 0%, transparent 45%),
+                  radial-gradient(ellipse at 55% 85%, rgba(14,165,160,0.08) 0%, transparent 40%);
+      animation: gradient-shift 8s ease-in-out infinite;
+      background-size: 200% 200%;
+      pointer-events: none;
+    }
+    .hero-grid {
+      position: absolute; inset: 0;
+      background-image: linear-gradient(rgba(255,255,255,0.025) 1px, transparent 1px),
+                        linear-gradient(90deg, rgba(255,255,255,0.025) 1px, transparent 1px);
+      background-size: 64px 64px; pointer-events: none;
+    }
+    /* Floating blobs */
+    .hero-blob1 {
+      position: absolute; top: -15%; right: -8%;
+      width: 500px; height: 500px;
+      background: radial-gradient(circle, rgba(14,165,160,0.14) 0%, transparent 70%);
+      animation: blob-morph 9s ease-in-out infinite;
+      pointer-events: none;
+    }
+    .hero-blob2 {
+      position: absolute; bottom: -10%; left: -5%;
+      width: 380px; height: 380px;
+      background: radial-gradient(circle, rgba(212,160,23,0.1) 0%, transparent 70%);
+      animation: blob-morph 11s ease-in-out 2s infinite;
+      pointer-events: none;
+    }
+    .hero-content {
+      position: relative; z-index: 2;
+      display: grid; grid-template-columns: 1fr 1fr;
+      gap: 64px; align-items: center;
+    }
+    /* Hero Left */
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: rgba(14,165,160,0.14); border: 1px solid rgba(14,165,160,0.3);
+      color: var(--teal-light); font-size: 0.76rem; font-weight: 700;
+      letter-spacing: 0.1em; text-transform: uppercase;
+      padding: 6px 18px; border-radius: 50px; margin-bottom: 24px;
+      position: relative; overflow: hidden;
+    }
+    .hero-badge::after {
+      content: ""; position: absolute; top: 0; left: -100%; width: 60px; height: 100%;
+      background: linear-gradient(90deg, transparent, rgba(255,255,255,0.15), transparent);
+      animation: shimmer-line 3s ease-in-out infinite;
+    }
+    .hero-badge-dot {
+      width: 7px; height: 7px; border-radius: 50%;
+      background: var(--teal-light); animation: pulse-dot 1.5s ease-in-out infinite;
+    }
+    .hero-title {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(2.6rem, 5.5vw, 4.4rem);
+      font-weight: 800; color: #fff; line-height: 1.08;
+      margin-bottom: 22px;
+    }
+    .hero-title .line2 {
+      background: linear-gradient(135deg, var(--teal-light) 30%, var(--gold-light));
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+      background-clip: text;
+      background-size: 200% 200%; animation: gradient-shift 4s ease infinite;
+    }
+    .hero-title .line3 { color: rgba(255,255,255,0.85); font-style: italic; }
+    .hero-desc {
+      font-size: 1.07rem; color: rgba(255,255,255,0.68);
+      line-height: 1.82; margin-bottom: 36px; max-width: 480px;
+    }
+    .hero-actions { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
+    .btn-ghost-white {
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: 14px 28px; border-radius: 50px;
+      font-weight: 600; font-size: 0.95rem;
+      color: rgba(255,255,255,0.88); border: 1.5px solid rgba(255,255,255,0.22);
+      background: rgba(255,255,255,0.06); backdrop-filter: blur(8px);
+      transition: all 0.3s; text-decoration: none;
+    }
+    .btn-ghost-white:hover { border-color: rgba(255,255,255,0.5); background: rgba(255,255,255,0.12); transform: translateY(-2px); }
+    .hero-trust {
+      display: flex; align-items: center; gap: 14px;
+      margin-top: 44px; flex-wrap: wrap;
+    }
+    .trust-divider { width: 1px; height: 34px; background: rgba(255,255,255,0.18); }
+    .trust-item { text-align: center; }
+    .trust-num {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.65rem; font-weight: 800; color: #fff; line-height: 1;
+      animation: count-flash 1s cubic-bezier(0.22,1,0.36,1) both;
+    }
+    .trust-num:nth-child(1) { animation-delay: 0.8s; }
+    .trust-label { font-size: 0.7rem; color: rgba(255,255,255,0.5); margin-top: 3px; text-transform: uppercase; letter-spacing: 0.06em; }
+    /* Hero Right */
+    .hero-right { position: relative; display: flex; justify-content: center; }
+    .hero-img-wrap {
+      position: relative; width: 100%; max-width: 430px;
+    }
+    .hero-img-main {
+      border-radius: var(--radius-xl);
+      overflow: hidden;
+      aspect-ratio: 3/4;
+      box-shadow: var(--shadow-lg), 0 0 0 1px rgba(255,255,255,0.07);
+      position: relative;
+    }
+    .hero-img-main img {
+      width: 100%; height: 100%; object-fit: cover;
+      transition: transform 0.6s ease;
+    }
+    .hero-img-main:hover img { transform: scale(1.04); }
+    .hero-img-overlay {
+      position: absolute; inset: 0;
+      background: linear-gradient(180deg, transparent 50%, rgba(11,36,71,0.55) 100%);
+    }
+    /* Floating info card */
+    .hero-info-card {
+      position: absolute; bottom: -20px; left: -32px;
+      background: rgba(255,255,255,0.08);
+      backdrop-filter: blur(20px) saturate(180%);
+      border: 1px solid rgba(255,255,255,0.14);
+      border-radius: var(--radius);
+      padding: 18px 22px;
+      animation: float 5s ease-in-out infinite;
+      min-width: 210px;
+    }
+    .hic-rating { display: flex; align-items: baseline; gap: 8px; margin-bottom: 8px; }
+    .hic-num {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.8rem; font-weight: 800; color: #fff; line-height: 1;
+    }
+    .hic-stars { display: flex; gap: 2px; }
+    .hic-stars span { color: var(--gold-light); font-size: 1rem; }
+    .hic-label { font-size: 0.78rem; color: rgba(255,255,255,0.55); }
+    /* Floating badge top */
+    .hero-badge-float {
+      position: absolute; top: -18px; right: -28px;
+      background: linear-gradient(135deg, var(--gold), #b8860b);
+      border-radius: var(--radius-sm);
+      padding: 14px 18px;
+      box-shadow: 0 8px 24px rgba(212,160,23,0.4);
+      animation: float-slow 6s ease-in-out 1s infinite;
+      text-align: center;
+    }
+    .hbf-num {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.7rem; font-weight: 800; color: #fff; line-height: 1;
+    }
+    .hbf-label { font-size: 0.65rem; color: rgba(255,255,255,0.85); text-transform: uppercase; letter-spacing: 0.08em; margin-top: 2px; }
+    /* Open status chip */
+    .hero-open-chip {
+      position: absolute; top: 18px; left: -24px;
+      background: #fff;
+      border-radius: 50px;
+      padding: 8px 16px;
+      display: flex; align-items: center; gap: 8px;
+      font-size: 0.82rem; font-weight: 600; color: var(--navy);
+      box-shadow: var(--shadow-md);
+      animation: float 4s ease-in-out 2s infinite;
+      white-space: nowrap;
+    }
+    .open-dot {
+      width: 8px; height: 8px; border-radius: 50%;
+      background: #10b981;
+      animation: pulse-ring 1.5s ease-in-out infinite;
+    }
+
+    /* ============================================================
+       STATS BAR
+    ============================================================ */
+    .stats-bar {
+      background: linear-gradient(135deg, #06111f, var(--navy), #0d3b6e);
+      padding: 32px 0; position: relative; overflow: hidden;
+    }
+    .stats-bar::before {
+      content: ""; position: absolute; top: 0; left: 0; right: 0; height: 2px;
+      background: linear-gradient(90deg, transparent, var(--teal), var(--gold), var(--teal), transparent);
+      background-size: 200% 100%; animation: shimmer-line 3s linear infinite;
+    }
+    .stats-bar::after {
+      content: ""; position: absolute; bottom: 0; left: 0; right: 0; height: 2px;
+      background: linear-gradient(90deg, transparent, var(--gold), var(--teal), var(--gold), transparent);
+      background-size: 200% 100%; animation: shimmer-line 3s linear 1.5s infinite;
+    }
+    .stats-grid { display: grid; grid-template-columns: repeat(4, 1fr); }
+    .stat-item {
+      display: flex; flex-direction: column; align-items: center;
+      padding: 16px 20px; text-align: center;
+      border-right: 1px solid rgba(255,255,255,0.08);
+      position: relative; overflow: hidden;
+      transition: all 0.3s;
+    }
+    .stat-item:hover { background: rgba(255,255,255,0.03); }
+    .stat-item:last-child { border-right: none; }
+    .stat-item::before {
+      content: ""; position: absolute; bottom: 0; left: 50%; transform: translateX(-50%);
+      width: 0; height: 2px;
+      background: linear-gradient(90deg, var(--teal), var(--gold));
+      transition: width 0.4s ease;
+    }
+    .stat-item:hover::before { width: 80%; }
+    .stat-num {
+      font-family: 'Playfair Display', serif; font-size: 2.4rem; font-weight: 800;
+      background: linear-gradient(135deg, var(--teal-light), var(--gold-light));
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+      line-height: 1; animation: count-flash 0.8s ease both;
+    }
+    .stat-item:nth-child(1) .stat-num { animation-delay: 0.1s; }
+    .stat-item:nth-child(2) .stat-num { animation-delay: 0.3s; }
+    .stat-item:nth-child(3) .stat-num { animation-delay: 0.5s; }
+    .stat-item:nth-child(4) .stat-num { animation-delay: 0.7s; }
+    .stat-label { font-size: 0.75rem; color: rgba(255,255,255,0.45); margin-top: 7px; text-transform: uppercase; letter-spacing: 0.09em; }
+
+    /* ============================================================
+       ABOUT
+    ============================================================ */
+    .about { padding: 110px 0; background: var(--off-white); }
+    .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center; }
+    .about-img-area { position: relative; }
+    .about-img-main {
+      border-radius: var(--radius-xl); overflow: hidden;
+      height: 520px; box-shadow: var(--shadow-lg);
+      position: relative;
+    }
+    .about-img-main img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s ease; }
+    .about-img-main:hover img { transform: scale(1.04); }
+    .about-img-overlay2 {
+      position: absolute; inset: 0;
+      background: linear-gradient(180deg, transparent 60%, rgba(11,36,71,0.3) 100%);
+    }
+    /* Floating experience badge */
+    .exp-badge {
+      position: absolute; bottom: -20px; right: -24px;
+      background: linear-gradient(135deg, var(--navy), var(--navy-light));
+      border-radius: var(--radius); padding: 20px 22px;
+      box-shadow: var(--shadow-lg); text-align: center;
+      animation: float-slow 5s ease-in-out 1s infinite;
+    }
+    .exp-num {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.6rem; font-weight: 800;
+      background: linear-gradient(135deg, var(--teal-light), var(--gold-light));
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+      line-height: 1;
+    }
+    .exp-label { font-size: 0.7rem; color: rgba(255,255,255,0.6); text-transform: uppercase; letter-spacing: 0.08em; margin-top: 4px; }
+    /* Rating badge */
+    .rating-badge {
+      position: absolute; top: 24px; left: -24px;
+      background: linear-gradient(135deg, var(--gold), #b8860b);
+      border-radius: var(--radius-sm); padding: 14px 16px;
+      box-shadow: 0 8px 28px rgba(212,160,23,0.45);
+      animation: float 6s ease-in-out infinite;
+      text-align: center;
+    }
+    .rb-num {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.9rem; font-weight: 800; color: #fff; line-height: 1;
+    }
+    .rb-stars { display: flex; justify-content: center; gap: 1px; margin-top: 4px; }
+    .rb-stars span { color: rgba(255,255,255,0.9); font-size: 0.75rem; }
+    .rb-label { font-size: 0.65rem; color: rgba(255,255,255,0.75); margin-top: 3px; }
+    .about-checklist { margin-top: 28px; display: flex; flex-direction: column; gap: 14px; }
+    .check-item {
+      display: flex; align-items: flex-start; gap: 14px;
+      padding: 16px 20px; background: #fff;
+      border: 1px solid var(--border); border-radius: var(--radius-sm);
+      transition: all 0.3s; position: relative; overflow: hidden;
+    }
+    .check-item::before {
+      content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 3px;
+      background: linear-gradient(180deg, var(--teal), var(--teal-light));
+      transform: scaleY(0); transform-origin: top; transition: transform 0.3s ease;
+    }
+    .check-item:hover { border-color: rgba(14,165,160,0.3); box-shadow: 0 4px 20px rgba(14,165,160,0.1); transform: translateX(6px); }
+    .check-item:hover::before { transform: scaleY(1); }
+    .check-icon {
+      width: 36px; height: 36px; border-radius: 10px; flex-shrink: 0;
+      background: linear-gradient(135deg, rgba(14,165,160,0.12), rgba(14,165,160,0.05));
+      display: flex; align-items: center; justify-content: center;
+    }
+    .check-icon svg { color: var(--teal); }
+    .check-text { font-size: 0.9rem; color: var(--text-mid); line-height: 1.55; }
+    .check-text strong { color: var(--navy); display: block; margin-bottom: 2px; font-size: 0.92rem; }
+
+    /* ============================================================
+       SERVICES
+    ============================================================ */
+    .services { padding: 110px 0; background: #fff; }
+    .services-header { text-align: center; margin-bottom: 64px; }
+    .services-header .section-subtitle { margin: 0 auto; }
+    .services-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+    @keyframes svcFadeUp {
+      from { opacity: 0; transform: translateY(36px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    .svc-card {
+      background: #fff; border: 1px solid var(--border);
+      border-radius: var(--radius); padding: 0;
+      transition: all 0.38s cubic-bezier(0.22,1,0.36,1); position: relative; overflow: hidden;
+      cursor: default;
+      animation: svcFadeUp 0.6s ease both;
+    }
+    .svc-card:nth-child(1) { animation-delay: 0.05s; }
+    .svc-card:nth-child(2) { animation-delay: 0.12s; }
+    .svc-card:nth-child(3) { animation-delay: 0.19s; }
+    .svc-card:nth-child(4) { animation-delay: 0.26s; }
+    .svc-card:nth-child(5) { animation-delay: 0.33s; }
+    .svc-card:nth-child(6) { animation-delay: 0.40s; }
+    .svc-card:nth-child(7) { animation-delay: 0.47s; }
+    .svc-card:nth-child(8) { animation-delay: 0.54s; }
+    .svc-card:nth-child(9) { animation-delay: 0.61s; }
+    .svc-card::after {
+      content: ""; position: absolute; inset: 0;
+      background: linear-gradient(135deg, rgba(14,165,160,0.04), rgba(212,160,23,0.02));
+      opacity: 0; transition: opacity 0.3s; pointer-events: none; z-index: 1;
+    }
+    .svc-card::before {
+      content: ""; position: absolute; top: 0; left: 0; right: 0; height: 3px;
+      background: linear-gradient(90deg, var(--teal), var(--gold));
+      transform: scaleX(0); transform-origin: left; transition: transform 0.38s ease;
+      z-index: 3;
+    }
+    .svc-card:hover { border-color: rgba(14,165,160,0.3); box-shadow: var(--shadow-md); transform: translateY(-8px); }
+    .svc-card:hover::before { transform: scaleX(1); }
+    .svc-card:hover::after { opacity: 1; }
+    .svc-img-wrap {
+      height: 200px; overflow: hidden; position: relative; border-radius: var(--radius) var(--radius) 0 0;
+    }
+    .svc-img-wrap img {
+      width: 100%; height: 100%; object-fit: cover;
+      transition: transform 0.55s cubic-bezier(0.22,1,0.36,1);
+      display: block;
+    }
+    .svc-card:hover .svc-img-wrap img { transform: scale(1.09); }
+    .svc-img-wrap::after {
+      content: ""; position: absolute; bottom: 0; left: 0; right: 0; height: 60px;
+      background: linear-gradient(to top, rgba(255,255,255,0.85), transparent);
+      pointer-events: none;
+    }
+    .svc-img-badge {
+      position: absolute; bottom: 10px; left: 14px; z-index: 2;
+      display: inline-flex; align-items: center; gap: 6px;
+      background: rgba(255,255,255,0.92); backdrop-filter: blur(8px);
+      border-radius: 30px; padding: 5px 12px 5px 8px;
+      font-size: 0.75rem; font-weight: 600; color: var(--navy);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+    }
+    .svc-img-badge .svc-badge-icon { font-size: 1rem; }
+    .svc-body { padding: 22px 26px 26px; }
+    .svc-icon {
+      width: 52px; height: 52px; border-radius: 14px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.5rem; margin-bottom: 14px;
+      transition: transform 0.3s;
+    }
+    .svc-card:hover .svc-icon { transform: scale(1.12) rotate(-3deg); }
+    .si-teal { background: linear-gradient(135deg, rgba(14,165,160,0.14), rgba(14,165,160,0.06)); }
+    .si-gold { background: linear-gradient(135deg, rgba(212,160,23,0.14), rgba(212,160,23,0.06)); }
+    .si-navy { background: linear-gradient(135deg, rgba(11,36,71,0.1), rgba(11,36,71,0.04)); }
+    .svc-name {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.12rem; font-weight: 600; color: var(--navy); margin-bottom: 8px;
+    }
+    .svc-desc { font-size: 0.85rem; color: var(--text-light); line-height: 1.72; }
+    .svc-arrow {
+      display: inline-flex; align-items: center; gap: 4px;
+      margin-top: 14px; font-size: 0.82rem; font-weight: 600; color: var(--teal);
+      transition: gap 0.2s;
+    }
+    .svc-card:hover .svc-arrow { gap: 10px; }
+
+    /* ============================================================
+       WHY CHOOSE US
+    ============================================================ */
+    .why-us {
+      padding: 110px 0; position: relative; overflow: hidden;
+      background: linear-gradient(160deg, #060e1e 0%, var(--navy) 50%, #0d3b6e 100%);
+    }
+    .why-us-deco {
+      position: absolute; inset: 0;
+      background: radial-gradient(ellipse at 8% 50%, rgba(14,165,160,0.12) 0%, transparent 50%),
+                  radial-gradient(ellipse at 92% 20%, rgba(212,160,23,0.09) 0%, transparent 45%);
+      pointer-events: none;
+    }
+    .why-grid-top { position: absolute; inset: 0; opacity: 0.035;
+      background-image: linear-gradient(rgba(255,255,255,0.4) 1px, transparent 1px),
+                        linear-gradient(90deg, rgba(255,255,255,0.4) 1px, transparent 1px);
+      background-size: 72px 72px; pointer-events: none;
+    }
+    .why-content { position: relative; z-index: 1; }
+    .why-header { text-align: center; margin-bottom: 64px; }
+    .why-header .section-title { color: #fff; }
+    .why-header .section-subtitle { color: rgba(255,255,255,0.55); margin: 0 auto; }
+    .why-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 22px; }
+    .why-card {
+      background: rgba(255,255,255,0.045);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(255,255,255,0.09);
+      border-radius: var(--radius); padding: 32px 22px; text-align: center;
+      transition: all 0.35s; position: relative; overflow: hidden;
+    }
+    .why-card::before {
+      content: ""; position: absolute; inset: 0;
+      background: linear-gradient(135deg, rgba(14,165,160,0.08), transparent);
+      opacity: 0; transition: opacity 0.3s;
+    }
+    .why-card:hover { background: rgba(255,255,255,0.08); border-color: rgba(14,165,160,0.35); transform: translateY(-8px); }
+    .why-card:hover::before { opacity: 1; }
+    .why-icon {
+      width: 70px; height: 70px; border-radius: 20px;
+      background: linear-gradient(135deg, rgba(14,165,160,0.2), rgba(14,165,160,0.08));
+      border: 1px solid rgba(14,165,160,0.2);
+      display: flex; align-items: center; justify-content: center;
+      margin: 0 auto 20px; font-size: 1.9rem;
+      transition: all 0.35s; position: relative;
+    }
+    .why-card:hover .why-icon { transform: scale(1.1) rotate(-5deg); background: rgba(14,165,160,0.28); }
+    .why-title { font-family: 'Playfair Display', serif; font-size: 1.12rem; font-weight: 600; color: #fff; margin-bottom: 10px; }
+    .why-desc { font-size: 0.84rem; color: rgba(255,255,255,0.54); line-height: 1.75; }
+
+    /* ============================================================
+       GALLERY
+    ============================================================ */
+    .gallery { padding: 110px 0; background: var(--off-white); }
+    .gallery-header { text-align: center; margin-bottom: 60px; }
+    .gallery-header .section-subtitle { margin: 0 auto; }
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: 280px 280px;
+      gap: 16px;
+    }
+    .gallery-item {
+      border-radius: var(--radius); overflow: hidden;
+      position: relative; cursor: pointer;
+      box-shadow: var(--shadow-sm);
+    }
+    .gallery-item:first-child { grid-column: 1; grid-row: 1 / 3; }
+    .gallery-item img {
+      width: 100%; height: 100%; object-fit: cover;
+      transition: transform 0.5s cubic-bezier(0.22, 1, 0.36, 1);
+    }
+    .gallery-item:hover img { transform: scale(1.07); }
+    .gallery-overlay {
+      position: absolute; inset: 0;
+      background: linear-gradient(to top, rgba(11,36,71,0.75) 0%, transparent 55%);
+      opacity: 0; transition: opacity 0.35s;
+      display: flex; align-items: flex-end; padding: 20px;
+    }
+    .gallery-item:hover .gallery-overlay { opacity: 1; }
+    .gallery-label {
+      color: #fff; font-weight: 600; font-size: 0.88rem;
+      transform: translateY(8px); transition: transform 0.35s;
+    }
+    .gallery-item:hover .gallery-label { transform: translateY(0); }
+    /* Subtle shimmer on hover */
+    .gallery-item::after {
+      content: ""; position: absolute; top: 0; left: -100%; width: 60px; height: 100%;
+      background: linear-gradient(90deg, transparent, rgba(255,255,255,0.12), transparent);
+      transition: left 0.5s;
+    }
+    .gallery-item:hover::after { left: 110%; }
+
+    /* ============================================================
+       BEFORE & AFTER
+    ============================================================ */
+    .before-after {
+      padding: 110px 0;
+      background: linear-gradient(135deg, var(--navy), #0d3b6e);
+      position: relative; overflow: hidden;
+    }
+    .ba-deco {
+      position: absolute; inset: 0;
+      background: radial-gradient(ellipse at 80% 50%, rgba(14,165,160,0.12) 0%, transparent 55%);
+      pointer-events: none;
+    }
+    .ba-content { position: relative; z-index: 1; }
+    .ba-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 72px; align-items: center; }
+    .ba-left .section-title { color: #fff; }
+    .ba-left .section-subtitle { color: rgba(255,255,255,0.6); }
+    .ba-points { margin-top: 32px; display: flex; flex-direction: column; gap: 16px; }
+    .ba-point {
+      display: flex; align-items: center; gap: 14px;
+      color: rgba(255,255,255,0.8); font-size: 0.92rem;
+    }
+    .ba-point-icon {
+      width: 38px; height: 38px; border-radius: 10px; flex-shrink: 0;
+      background: rgba(14,165,160,0.18);
+      display: flex; align-items: center; justify-content: center;
+    }
+    .ba-point-icon svg { color: var(--teal-light); }
+    .ba-img-frame {
+      border-radius: var(--radius-xl); overflow: hidden;
+      box-shadow: var(--shadow-lg), 0 0 0 1px rgba(255,255,255,0.07);
+      position: relative; transition: transform 0.4s ease;
+    }
+    .ba-img-frame:hover { transform: scale(1.02); }
+    .ba-img-frame img { width: 100%; height: auto; display: block; }
+    .ba-img-caption {
+      position: absolute; bottom: 0; left: 0; right: 0;
+      background: linear-gradient(transparent, rgba(11,36,71,0.85));
+      padding: 24px 20px 20px;
+      display: flex; justify-content: space-between; align-items: flex-end;
+    }
+    .ba-pill {
+      font-size: 0.8rem; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 0.1em; padding: 5px 14px; border-radius: 50px;
+    }
+    .ba-pill-before { background: rgba(255,255,255,0.15); color: rgba(255,255,255,0.7); }
+    .ba-pill-after { background: var(--teal); color: #fff; }
+
+    /* ============================================================
+       DOCTORS
+    ============================================================ */
+    .doctors { padding: 110px 0; background: #fff; }
+    .doctors-header { text-align: center; margin-bottom: 64px; }
+    .doctors-header .section-subtitle { margin: 0 auto; }
+    .doctors-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 32px; max-width: 860px; margin: 0 auto; }
+    .doctor-card {
+      background: var(--off-white); border: 1px solid var(--border);
+      border-radius: var(--radius-xl); overflow: hidden;
+      transition: all 0.35s; box-shadow: var(--shadow-sm);
+    }
+    .doctor-card:hover { box-shadow: var(--shadow-lg); transform: translateY(-10px); border-color: rgba(14,165,160,0.2); }
+    .doctor-photo {
+      height: 270px; position: relative; overflow: hidden;
+      background: linear-gradient(135deg, var(--navy) 0%, #1e5799 50%, var(--teal) 100%);
+      display: flex; align-items: center; justify-content: center;
+    }
+    .doctor-photo-icon {
+      width: 110px; height: 110px;
+      background: rgba(255,255,255,0.12);
+      border: 3px solid rgba(255,255,255,0.2);
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      transition: transform 0.4s;
+    }
+    .doctor-card:hover .doctor-photo-icon { transform: scale(1.08); }
+    .doctor-photo-icon svg { color: rgba(255,255,255,0.5); }
+    .doctor-overlay { position: absolute; bottom: 0; left: 0; right: 0; height: 50%; background: linear-gradient(transparent, rgba(11,36,71,0.5)); }
+    .doctor-body { padding: 28px; }
+    .doctor-name { font-family: 'Playfair Display', serif; font-size: 1.45rem; font-weight: 700; color: var(--navy); margin-bottom: 4px; }
+    .doctor-title-tag { font-size: 0.84rem; color: var(--teal); font-weight: 600; margin-bottom: 14px; }
+    .doctor-desc { font-size: 0.87rem; color: var(--text-light); line-height: 1.75; margin-bottom: 20px; }
+    .doctor-tags { display: flex; flex-wrap: wrap; gap: 8px; }
+    .dtag {
+      background: rgba(14,165,160,0.08); border: 1px solid rgba(14,165,160,0.18);
+      color: var(--teal); font-size: 0.74rem; font-weight: 600;
+      padding: 4px 12px; border-radius: 50px;
+      transition: all 0.2s;
+    }
+    .dtag:hover { background: var(--teal); color: #fff; }
+
+    /* ============================================================
+       TESTIMONIALS
+    ============================================================ */
+    .testimonials { padding: 110px 0; background: var(--off-white); }
+    .testimonials-header { text-align: center; margin-bottom: 60px; }
+    .testimonials-header .section-subtitle { margin: 0 auto; }
+    .google-proof {
+      display: inline-flex; align-items: center; gap: 10px;
+      background: #fff; border: 1px solid var(--border);
+      border-radius: 50px; padding: 8px 18px;
+      box-shadow: var(--shadow-sm); font-size: 0.85rem; font-weight: 600;
+      color: var(--text-mid); margin-top: 16px;
+    }
+    .g-letter { font-size: 1.1rem; font-weight: 800; color: #4285f4; }
+    .g-stars { color: var(--gold); letter-spacing: 1px; }
+    .reviews-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; }
+    .review-card {
+      background: #fff; border: 1px solid var(--border);
+      border-radius: var(--radius); padding: 28px;
+      transition: all 0.35s; position: relative; overflow: hidden;
+    }
+    .review-card::before {
+      content: ""; position: absolute; inset: 0;
+      background: linear-gradient(135deg, rgba(14,165,160,0.04), transparent);
+      opacity: 0; transition: opacity 0.3s;
+    }
+    .review-card:hover { box-shadow: var(--shadow-md); border-color: rgba(14,165,160,0.2); transform: translateY(-5px); }
+    .review-card:hover::before { opacity: 1; }
+    .review-quote { font-size: 3.2rem; line-height: 0.7; color: var(--teal); opacity: 0.25; font-family: serif; margin-bottom: 8px; }
+    .review-stars { display: flex; gap: 2px; margin-bottom: 8px; }
+    .review-stars span { color: var(--gold); font-size: 0.9rem; }
+    .review-text { font-size: 0.88rem; color: var(--text-mid); line-height: 1.78; margin-bottom: 20px; font-style: italic; }
+    .review-footer { display: flex; align-items: center; gap: 12px; }
+    .reviewer-av {
+      width: 44px; height: 44px; border-radius: 50%; flex-shrink: 0;
+      display: flex; align-items: center; justify-content: center;
+      color: #fff; font-weight: 700; font-size: 1rem;
+      background: linear-gradient(135deg, var(--teal), var(--navy));
+      transition: transform 0.25s;
+    }
+    .review-card:hover .reviewer-av { transform: scale(1.1); }
+    .reviewer-name { font-weight: 600; font-size: 0.88rem; color: var(--navy); }
+    .reviewer-meta { font-size: 0.74rem; color: var(--text-light); margin-top: 2px; }
+
+    /* ============================================================
+       PATIENT RESULT STRIP
+    ============================================================ */
+    .patient-strip {
+      padding: 90px 0;
+      background: linear-gradient(135deg, #f0f9ff, #e0f7f5);
+      position: relative; overflow: hidden;
+    }
+    .ps-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 72px; align-items: center; }
+    .ps-img {
+      border-radius: var(--radius-xl); overflow: hidden;
+      box-shadow: var(--shadow-md);
+      position: relative;
+    }
+    .ps-img img { width: 100%; height: auto; display: block; transition: transform 0.5s ease; }
+    .ps-img:hover img { transform: scale(1.03); }
+    .ps-img-badge {
+      position: absolute; bottom: 16px; left: 16px;
+      background: rgba(255,255,255,0.92);
+      backdrop-filter: blur(10px);
+      border-radius: var(--radius-sm); padding: 10px 16px;
+      display: flex; align-items: center; gap: 8px;
+      box-shadow: var(--shadow-sm);
+    }
+    .wave-emoji { animation: wave 2.5s ease-in-out infinite; display: inline-block; transform-origin: 70% 70%; }
+    .ps-img-badge-text { font-size: 0.82rem; font-weight: 600; color: var(--navy); }
+    .ps-content .section-label { background: rgba(14,165,160,0.1); }
+    .ps-stat-row { display: flex; gap: 24px; margin-top: 28px; flex-wrap: wrap; }
+    .ps-stat {
+      background: #fff; border: 1px solid var(--border);
+      border-radius: var(--radius-sm); padding: 16px 22px; text-align: center;
+      flex: 1; min-width: 100px; box-shadow: var(--shadow-sm);
+      transition: all 0.3s;
+    }
+    .ps-stat:hover { transform: translateY(-4px); box-shadow: var(--shadow-md); border-color: var(--teal); }
+    .ps-stat-num { font-family: 'Playfair Display', serif; font-size: 1.8rem; font-weight: 800; color: var(--navy); }
+    .ps-stat-label { font-size: 0.74rem; color: var(--text-light); margin-top: 4px; text-transform: uppercase; letter-spacing: 0.07em; }
+
+    /* ============================================================
+       APPOINTMENT
+    ============================================================ */
+    .appointment {
+      padding: 110px 0;
+      background: linear-gradient(160deg, #060e1e 0%, var(--navy) 55%, #0d3b6e 100%);
+      position: relative; overflow: hidden;
+    }
+    .appt-deco {
+      position: absolute; inset: 0;
+      background: radial-gradient(ellipse at 70% 50%, rgba(14,165,160,0.12) 0%, transparent 60%);
+      pointer-events: none;
+    }
+    .appt-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center; position: relative; z-index: 1; }
+    .appt-left .section-title { color: #fff; }
+    .appt-left .section-subtitle { color: rgba(255,255,255,0.62); }
+    .appt-info { margin-top: 36px; display: flex; flex-direction: column; gap: 16px; }
+    .appt-row { display: flex; align-items: center; gap: 14px; }
+    .appt-row-icon {
+      width: 46px; height: 46px; border-radius: 12px; flex-shrink: 0;
+      background: rgba(255,255,255,0.07);
+      display: flex; align-items: center; justify-content: center;
+      transition: background 0.3s;
+    }
+    .appt-row:hover .appt-row-icon { background: rgba(14,165,160,0.2); }
+    .appt-row-icon svg { color: var(--teal-light); }
+    .appt-row-text { color: rgba(255,255,255,0.75); font-size: 0.9rem; }
+    .appt-row-text strong { color: #fff; display: block; margin-bottom: 1px; }
+    .appt-form {
+      background: rgba(255,255,255,0.05);
+      backdrop-filter: blur(20px) saturate(160%);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: var(--radius-xl); padding: 38px;
+    }
+    .form-title { font-family: 'Playfair Display', serif; font-size: 1.55rem; font-weight: 700; color: #fff; margin-bottom: 26px; }
+    .form-row2 { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+    .form-group { margin-bottom: 16px; }
+    .form-label { display: block; font-size: 0.8rem; font-weight: 500; color: rgba(255,255,255,0.65); margin-bottom: 6px; }
+    .form-inp, .form-sel, .form-ta {
+      width: 100%; background: rgba(255,255,255,0.07); border: 1px solid rgba(255,255,255,0.14);
+      border-radius: 10px; padding: 12px 15px;
+      color: #fff; font-size: 0.88rem; font-family: 'Inter', sans-serif;
+      transition: all 0.25s; outline: none; appearance: none;
+    }
+    .form-inp::placeholder, .form-ta::placeholder { color: rgba(255,255,255,0.3); }
+    .form-inp:focus, .form-sel:focus, .form-ta:focus {
+      border-color: var(--teal-light);
+      background: rgba(255,255,255,0.1);
+      box-shadow: 0 0 0 3px rgba(14,165,160,0.18);
+    }
+    .form-sel option { background: var(--navy); color: #fff; }
+    .form-ta { min-height: 88px; resize: vertical; }
+    .form-btn {
+      width: 100%;
+      background: linear-gradient(135deg, var(--teal), #0891b2);
+      color: #fff; border: none; border-radius: 12px;
+      padding: 15px; font-size: 1rem; font-weight: 700;
+      cursor: pointer; transition: all 0.3s;
+      box-shadow: 0 4px 22px rgba(14,165,160,0.35);
+      font-family: 'Inter', sans-serif;
+      position: relative; overflow: hidden;
+    }
+    .form-btn::after {
+      content: ""; position: absolute; top: 0; left: -100%; width: 60px; height: 100%;
+      background: linear-gradient(90deg, transparent, rgba(255,255,255,0.18), transparent);
+      animation: shimmer-line 2.5s ease-in-out infinite;
+    }
+    .form-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 32px rgba(14,165,160,0.5); }
+
+    /* ============================================================
+       HOURS & CONTACT
+    ============================================================ */
+    .contact-section { padding: 100px 0; background: var(--off-white); }
+    .contact-header { text-align: center; margin-bottom: 56px; }
+    .contact-header .section-subtitle { margin: 0 auto; }
+    .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 52px; align-items: start; }
+    .hours-card {
+      background: #fff; border: 1px solid var(--border);
+      border-radius: var(--radius-xl); overflow: hidden;
+      box-shadow: var(--shadow-sm);
+    }
+    .hours-card-header {
+      background: linear-gradient(135deg, var(--navy), var(--navy-light));
+      padding: 22px 28px; display: flex; align-items: center; gap: 14px;
+    }
+    .hours-card-header svg { color: var(--teal-light); }
+    .hours-card-title { font-family: 'Playfair Display', serif; font-size: 1.2rem; font-weight: 600; color: #fff; }
+    .hours-card-sub { font-size: 0.78rem; color: rgba(255,255,255,0.5); margin-top: 2px; }
+    .hours-table { width: 100%; border-collapse: collapse; }
+    .hours-row { border-bottom: 1px solid var(--border); transition: background 0.2s; }
+    .hours-row:last-child { border-bottom: none; }
+    .hours-row:hover { background: var(--off-white); }
+    .hours-row td { padding: 13px 22px; font-size: 0.88rem; color: var(--text-mid); }
+    .hours-row td:first-child { font-weight: 500; color: var(--navy); }
+    .hours-row td:last-child { text-align: right; color: var(--teal); font-weight: 600; }
+    .hours-today-row td:first-child { color: var(--teal) !important; }
+    .hours-today-row { background: rgba(14,165,160,0.05) !important; }
+    .contact-info-stack { display: flex; flex-direction: column; gap: 20px; }
+    .contact-card {
+      background: #fff; border: 1px solid var(--border);
+      border-radius: var(--radius); padding: 22px;
+      display: flex; align-items: flex-start; gap: 16px;
+      box-shadow: var(--shadow-sm); transition: all 0.3s;
+    }
+    .contact-card:hover { border-color: var(--teal); box-shadow: 0 4px 20px rgba(14,165,160,0.12); transform: translateY(-3px); }
+    .contact-card-icon {
+      width: 48px; height: 48px; border-radius: 14px; flex-shrink: 0;
+      background: linear-gradient(135deg, var(--teal), #0891b2);
+      display: flex; align-items: center; justify-content: center;
+      box-shadow: 0 4px 14px rgba(14,165,160,0.3);
+    }
+    .contact-card-icon svg { color: #fff; }
+    .contact-card-title { font-weight: 600; font-size: 0.9rem; color: var(--navy); margin-bottom: 5px; }
+    .contact-card-value { font-size: 0.85rem; color: var(--text-light); line-height: 1.6; }
+    .contact-card-value a { color: var(--teal); font-weight: 500; }
+    .contact-card-value a:hover { text-decoration: underline; }
+    .map-btn {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: linear-gradient(135deg, var(--navy), var(--navy-light));
+      color: #fff; font-weight: 600; font-size: 0.85rem;
+      padding: 11px 22px; border-radius: 50px; margin-top: 14px;
+      transition: all 0.3s; box-shadow: 0 4px 14px rgba(11,36,71,0.25);
+    }
+    .map-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(11,36,71,0.35); }
+
+    /* ============================================================
+       CTA STRIP
+    ============================================================ */
+    .cta-strip {
+      background: linear-gradient(135deg, var(--teal), #0891b2);
+      padding: 52px 0; position: relative; overflow: hidden;
+    }
+    .cta-strip::before {
+      content: ""; position: absolute; inset: 0;
+      background: radial-gradient(ellipse at 30% 50%, rgba(255,255,255,0.08) 0%, transparent 60%);
+    }
+    .cta-inner { display: flex; align-items: center; justify-content: space-between; gap: 32px; flex-wrap: wrap; position: relative; z-index: 1; }
+    .cta-text-label { font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: rgba(255,255,255,0.7); margin-bottom: 7px; }
+    .cta-title { font-family: 'Playfair Display', serif; font-size: 1.9rem; font-weight: 700; color: #fff; }
+    .cta-actions { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
+    .btn-cta-outline {
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: 14px 28px; border-radius: 50px; border: 2px solid rgba(255,255,255,0.4);
+      color: #fff; font-weight: 600; font-size: 0.92rem;
+      background: transparent; transition: all 0.3s; text-decoration: none;
+    }
+    .btn-cta-outline:hover { background: rgba(255,255,255,0.12); border-color: rgba(255,255,255,0.7); transform: translateY(-2px); }
+
+    /* ============================================================
+       FOOTER
+    ============================================================ */
+    .footer { background: var(--navy); padding: 72px 0 0; }
+    .footer-grid {
+      display: grid; grid-template-columns: 2fr 1fr 1fr 1.5fr;
+      gap: 52px; padding-bottom: 52px;
+      border-bottom: 1px solid rgba(255,255,255,0.07);
+    }
+    .footer-brand-desc { font-size: 0.84rem; color: rgba(255,255,255,0.45); line-height: 1.8; max-width: 280px; margin-top: 16px; }
+    .footer-social { display: flex; gap: 10px; margin-top: 22px; }
+    .soc-btn {
+      width: 40px; height: 40px; border-radius: 11px;
+      background: rgba(255,255,255,0.07);
+      display: flex; align-items: center; justify-content: center;
+      color: rgba(255,255,255,0.5); font-size: 0.82rem; font-weight: 700;
+      transition: all 0.25s; text-decoration: none;
+    }
+    .soc-btn:hover { background: var(--teal); color: #fff; transform: translateY(-3px); }
+    .footer-col h4 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1rem; font-weight: 600; color: #fff; margin-bottom: 20px;
+    }
+    .footer-col ul { display: flex; flex-direction: column; gap: 10px; }
+    .footer-col ul li a {
+      font-size: 0.84rem; color: rgba(255,255,255,0.45);
+      transition: color 0.2s; display: flex; align-items: center; gap: 6px;
+    }
+    .footer-col ul li a::before { content: "›"; color: var(--teal); font-size: 1.1rem; line-height: 1; }
+    .footer-col ul li a:hover { color: var(--teal-light); }
+    .footer-contact-list { display: flex; flex-direction: column; gap: 14px; }
+    .fci {
+      display: flex; align-items: flex-start; gap: 10px;
+    }
+    .fci svg { color: var(--teal); flex-shrink: 0; margin-top: 2px; }
+    .fci p, .fci a { font-size: 0.82rem; color: rgba(255,255,255,0.45); line-height: 1.6; transition: color 0.2s; }
+    .fci a:hover { color: var(--teal-light); }
+    .footer-bottom {
+      padding: 22px 0;
+      display: flex; align-items: center; justify-content: space-between;
+      flex-wrap: wrap; gap: 12px;
+    }
+    .footer-bottom p { font-size: 0.78rem; color: rgba(255,255,255,0.27); }
+    .footer-bottom-links { display: flex; gap: 20px; }
+    .footer-bottom-links a { font-size: 0.78rem; color: rgba(255,255,255,0.27); transition: color 0.2s; }
+    .footer-bottom-links a:hover { color: rgba(255,255,255,0.55); }
+
+    /* ============================================================
+       FLOATING BUTTONS
+    ============================================================ */
+    .float-cta {
+      position: fixed; bottom: 28px; right: 28px;
+      z-index: 9999; display: flex; flex-direction: column; gap: 12px; align-items: flex-end;
+    }
+    .fbtn {
+      display: flex; align-items: center; gap: 10px;
+      border-radius: 50px; font-weight: 700; font-size: 0.85rem;
+      padding: 13px 22px;
+      box-shadow: 0 6px 28px rgba(0,0,0,0.28);
+      transition: all 0.3s; text-decoration: none; white-space: nowrap;
+    }
+    .fbtn-call { background: var(--teal); color: #fff; }
+    .fbtn-wa { background: #25d366; color: #fff; }
+    .fbtn:hover { transform: scale(1.06); box-shadow: 0 10px 36px rgba(0,0,0,0.32); }
+    .fbtn-icon { font-size: 1.15rem; }
+
+    /* ============================================================
+       RESPONSIVE
+    ============================================================ */
+    @media (max-width: 1024px) {
+      .services-grid { grid-template-columns: repeat(2, 1fr); }
+      .why-grid { grid-template-columns: repeat(2, 1fr); }
+      .footer-grid { grid-template-columns: 1fr 1fr; gap: 36px; }
+    }
+    @media (max-width: 900px) {
+      .hero-content { grid-template-columns: 1fr; }
+      .hero-right { display: none; }
+      .about-grid { grid-template-columns: 1fr; }
+      .about-img-area { display: none; }
+      .ba-grid { grid-template-columns: 1fr; }
+      .ps-grid { grid-template-columns: 1fr; }
+      .appt-grid { grid-template-columns: 1fr; gap: 48px; }
+      .contact-grid { grid-template-columns: 1fr; }
+      .stats-grid { grid-template-columns: repeat(2, 1fr); }
+      .stat-item:nth-child(2) { border-right: none; }
+      .doctors-grid { grid-template-columns: 1fr; max-width: 420px; }
+    }
+    @media (max-width: 768px) {
+      .topbar-right { display: none; }
+      .nav-links, .nav-phone { display: none; }
+      .hamburger { display: flex; }
+      .services-grid { grid-template-columns: 1fr; }
+      .reviews-grid { grid-template-columns: 1fr; }
+      .gallery-grid { grid-template-columns: 1fr 1fr; grid-template-rows: auto; }
+      .gallery-item:first-child { grid-column: 1 / 3; grid-row: auto; height: 220px; }
+      .why-grid { grid-template-columns: 1fr; }
+      .footer-grid { grid-template-columns: 1fr; }
+      .cta-inner { flex-direction: column; text-align: center; }
+      .form-row2 { grid-template-columns: 1fr; }
+      .hero-actions { flex-direction: column; }
+      .hero-trust { flex-wrap: wrap; justify-content: center; }
+    }
+    @media (max-width: 480px) {
+      .float-cta { bottom: 16px; right: 14px; }
+      .fbtn span { display: none; }
+      .fbtn { padding: 14px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- TOPBAR -->
+  <div class="topbar">
+    <div class="container">
+      <div class="topbar-left">
+        <span class="topbar-item">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+          Mon – Sun: 9:00 AM – 5:00 PM
+        </span>
+        <span class="open-pill">● Open Today</span>
+      </div>
+      <div class="topbar-right">
+        <a href="tel:+919975640120" class="topbar-item">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.28h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.96a16 16 0 0 0 6 6l.95-.95a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          099756 40120
+        </a>
+        <span class="topbar-item">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          Sangli, Maharashtra
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <!-- NAVBAR -->
+  <input type="checkbox" id="menu-toggle" class="menu-toggle" style="display:none;">
+  <nav class="navbar">
+    <div class="container">
+      <a href="#" class="logo">
+        <div class="logo-img-wrap">
+          <img src="clinic/dental-square-logo-transparent.png" alt="Dental Square" class="logo-img-real">
+        </div>
+        <div class="logo-divider"></div>
+        <div class="logo-meta">
+          <span class="logo-meta-name">Dental Square</span>
+          <span class="logo-meta-tag">Multispeciality Clinic · Sangli</span>
+        </div>
+      </a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#doctors">Doctors</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="nav-right">
+        <a href="tel:+919975640120" class="nav-phone">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.28h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.96a16 16 0 0 0 6 6l.95-.95a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          099756 40120
+        </a>
+        <a href="#appointment" class="btn btn-primary">Book Appointment</a>
+        <label for="menu-toggle" class="hamburger">
+          <span></span><span></span><span></span>
+        </label>
+      </div>
+    </div>
+  </nav>
+  <div class="mobile-nav">
+    <a href="#about">About Us</a>
+    <a href="#services">Services</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#doctors">Our Doctors</a>
+    <a href="#reviews">Patient Reviews</a>
+    <a href="#contact">Contact &amp; Hours</a>
+    <a href="#appointment" class="btn btn-primary" style="text-align:center;margin-top:10px;">Book Appointment</a>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-gradient-bg"></div>
+    <div class="hero-grid"></div>
+    <div class="hero-blob1"></div>
+    <div class="hero-blob2"></div>
+    <div class="container">
+      <div class="hero-content">
+        <!-- Left -->
+        <div>
+          <div class="hero-badge hero-load-1">
+            <span class="hero-badge-dot"></span>
+            Best Orthodontic &amp; Implant Centre in Sangli
+          </div>
+          <h1 class="hero-title hero-load-2">
+            Your Perfect<br>
+            <span class="line2">Smile Starts</span><br>
+            <span class="line3">Right Here</span>
+          </h1>
+          <p class="hero-desc hero-load-3">
+            Dental Square Multispeciality Clinic delivers world-class dental care with compassion, precision, and the latest technology. Trusted by thousands across Sangli for over 13 years.
+          </p>
+          <div class="hero-actions hero-load-4">
+            <a href="#appointment" class="btn btn-primary">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+              Book Appointment
+            </a>
+          </div>
+          <div class="hero-trust hero-load-5">
+            <div class="trust-item">
+              <div class="trust-num">5.0★</div>
+              <div class="trust-label">Google Rating</div>
+            </div>
+            <div class="trust-divider"></div>
+            <div class="trust-item">
+              <div class="trust-num">329+</div>
+              <div class="trust-label">Reviews</div>
+            </div>
+            <div class="trust-divider"></div>
+            <div class="trust-item">
+              <div class="trust-num">13+</div>
+              <div class="trust-label">Years Care</div>
+            </div>
+            <div class="trust-divider"></div>
+            <div class="trust-item">
+              <div class="trust-num">7</div>
+              <div class="trust-label">Days Open</div>
+            </div>
+          </div>
+        </div>
+        <!-- Right -->
+        <div class="hero-right">
+          <div class="hero-img-wrap hero-card-load">
+            <div class="hero-open-chip">
+              <span class="open-dot"></span> Open Today · 9 AM – 5 PM
+            </div>
+            <div class="hero-badge-float">
+              <div class="hbf-num">13+</div>
+              <div class="hbf-label">Years of<br>Excellence</div>
+            </div>
+            <div class="hero-img-main">
+              <img src="clinic/reception.png" alt="Dental Square reception area" loading="eager">
+              <div class="hero-img-overlay"></div>
+            </div>
+            <div class="hero-info-card">
+              <div class="hic-rating">
+                <div class="hic-num">5.0</div>
+                <div>
+                  <div class="hic-stars">
+                    <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                  </div>
+                  <div class="hic-label">329 Google Reviews</div>
+                </div>
+              </div>
+              <div style="font-size:0.8rem;color:rgba(255,255,255,0.55);">Dr. Akash &amp; Dr. Priyanka Lavate</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS BAR -->
+  <div class="stats-bar">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item">
+          <div class="stat-num">5.0 ★</div>
+          <div class="stat-label">Google Rating</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-num">329+</div>
+          <div class="stat-label">Happy Patients</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-num">13+</div>
+          <div class="stat-label">Years Experience</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-num">10+</div>
+          <div class="stat-label">Specialities</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-img-area scroll-reveal-left">
+          <div class="rating-badge">
+            <div class="rb-num">5.0</div>
+            <div class="rb-stars">
+              <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+            </div>
+            <div class="rb-label">Google Rated</div>
+          </div>
+          <div class="about-img-main">
+            <img src="clinic/services-wall.png" alt="Dental Square treatment room with services" loading="lazy">
+            <div class="about-img-overlay2"></div>
+          </div>
+          <div class="exp-badge">
+            <div class="exp-num">13+</div>
+            <div class="exp-label">Years of<br>Excellence</div>
+          </div>
+        </div>
+        <div class="scroll-reveal-right">
+          <div class="section-label">About Our Clinic</div>
+          <h2 class="section-title">Where Expertise Meets Gentle Care</h2>
+          <p class="section-subtitle">Dental Square is Sangli's premier multispeciality dental clinic. For over 13 years we have transformed thousands of smiles with precision, compassion, and cutting-edge technology — right here in the heart of Sangli.</p>
+          <div class="about-checklist">
+            <div class="check-item">
+              <div class="check-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              <div class="check-text">
+                <strong>State-of-the-Art Equipment</strong>
+                Latest diagnostic and treatment technology including advanced laser dentistry for precise and comfortable procedures.
+              </div>
+            </div>
+            <div class="check-item">
+              <div class="check-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              <div class="check-text">
+                <strong>Strict Sterilization Protocols</strong>
+                Clean, hygienic infrastructure with proper sterilization standards — your safety comes first, always.
+              </div>
+            </div>
+            <div class="check-item">
+              <div class="check-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              <div class="check-text">
+                <strong>Patient-First Consultations</strong>
+                In-depth consultations where every detail is explained clearly. We give you all the time you need.
+              </div>
+            </div>
+            <div class="check-item">
+              <div class="check-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              <div class="check-text">
+                <strong>Open 7 Days a Week</strong>
+                We're here every single day from 9 AM to 5 PM to accommodate your schedule.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="services-header scroll-reveal">
+        <div class="section-label">Our Services</div>
+        <h2 class="section-title">Comprehensive Dental Care</h2>
+        <p class="section-subtitle">From routine cleanings to advanced implants and laser treatments — every dental service you need, under one roof.</p>
+      </div>
+      <div class="services-grid">
+        <div class="svc-card scroll-reveal">
+          <div class="svc-img-wrap">
+            <img src="clinic/services/implants.jpg" alt="Dental Implants" loading="lazy">
+            <div class="svc-img-badge"><span class="svc-badge-icon">🦷</span> Dental Implants</div>
+          </div>
+          <div class="svc-body">
+            <div class="svc-icon si-teal">🦷</div>
+            <div class="svc-name">Dental Implants</div>
+            <p class="svc-desc">Permanent, natural-looking replacements for missing teeth. Restore full function and aesthetics with lasting results.</p>
+            <div class="svc-arrow">Learn More →</div>
+          </div>
+        </div>
+        <div class="svc-card scroll-reveal">
+          <div class="svc-img-wrap">
+            <img src="clinic/services/braces.jpg" alt="Orthodontics & Braces" loading="lazy">
+            <div class="svc-img-badge"><span class="svc-badge-icon">😁</span> Orthodontics</div>
+          </div>
+          <div class="svc-body">
+            <div class="svc-icon si-gold">😁</div>
+            <div class="svc-name">Orthodontics &amp; Braces</div>
+            <p class="svc-desc">Presurgical orthodontics, traditional braces, and aligners to align your teeth and perfect your smile.</p>
+            <div class="svc-arrow">Learn More →</div>
+          </div>
+        </div>
+        <div class="svc-card scroll-reveal">
+          <div class="svc-img-wrap">
+            <img src="clinic/services/laser.jpg" alt="Laser Dentistry" loading="lazy">
+            <div class="svc-img-badge"><span class="svc-badge-icon">⚡</span> Laser Dentistry</div>
+          </div>
+          <div class="svc-body">
+            <div class="svc-icon si-teal">⚡</div>
+            <div class="svc-name">Laser Dentistry</div>
+            <p class="svc-desc">Advanced laser treatments for gum disease, whitening, and soft-tissue procedures — faster healing, minimal discomfort.</p>
+            <div class="svc-arrow">Learn More →</div>
+          </div>
+        </div>
+        <div class="svc-card scroll-reveal">
+          <div class="svc-img-wrap">
+            <img src="clinic/services/rootcanal.jpg" alt="Root Canal Treatment" loading="lazy">
+            <div class="svc-img-badge"><span class="svc-badge-icon">🔬</span> Root Canal (RCT)</div>
+          </div>
+          <div class="svc-body">
+            <div class="svc-icon si-navy">🔬</div>
+            <div class="svc-name">Root Canal (RCT)</div>
+            <p class="svc-desc">Gentle root canal therapy using modern rotary instruments — saving your natural tooth and eliminating pain.</p>
+            <div class="svc-arrow">Learn More →</div>
+          </div>
+        </div>
+        <div class="svc-card scroll-reveal">
+          <div class="svc-img-wrap">
+            <img src="clinic/services/cosmetic.jpg" alt="Cosmetic Dentistry" loading="lazy">
+            <div class="svc-img-badge"><span class="svc-badge-icon">✨</span> Cosmetic Dentistry</div>
+          </div>
+          <div class="svc-body">
+            <div class="svc-icon si-gold">✨</div>
+            <div class="svc-name">Cosmetic Dentistry</div>
+            <p class="svc-desc">Tooth reshaping, veneers, bonding, and professional whitening to give you the bright, confident smile you deserve.</p>
+            <div class="svc-arrow">Learn More →</div>
+          </div>
+        </div>
+        <div class="svc-card scroll-reveal">
+          <div class="svc-img-wrap">
+            <img src="clinic/services/prosthodontics.jpg" alt="Fixed Prosthodontics" loading="lazy">
+            <div class="svc-img-badge"><span class="svc-badge-icon">🛡️</span> Prosthodontics</div>
+          </div>
+          <div class="svc-body">
+            <div class="svc-icon si-teal">🛡️</div>
+            <div class="svc-name">Fixed Prosthodontics</div>
+            <p class="svc-desc">Crowns, bridges, and fixed prosthetics crafted for durability and natural aesthetics — restoring your bite and confidence.</p>
+            <div class="svc-arrow">Learn More →</div>
+          </div>
+        </div>
+        <div class="svc-card scroll-reveal">
+          <div class="svc-img-wrap">
+            <img src="clinic/services/scaling.jpg" alt="Scaling & Cleaning" loading="lazy">
+            <div class="svc-img-badge"><span class="svc-badge-icon">🩺</span> Scaling &amp; Cleaning</div>
+          </div>
+          <div class="svc-body">
+            <div class="svc-icon si-navy">🩺</div>
+            <div class="svc-name">Scaling &amp; Cleaning</div>
+            <p class="svc-desc">Professional deep cleaning and tartar removal to maintain healthy gums and prevent periodontal disease.</p>
+            <div class="svc-arrow">Learn More →</div>
+          </div>
+        </div>
+        <div class="svc-card scroll-reveal">
+          <div class="svc-img-wrap">
+            <img src="clinic/services/extraction.jpg" alt="Tooth Extraction" loading="lazy">
+            <div class="svc-img-badge"><span class="svc-badge-icon">🔧</span> Tooth Extraction</div>
+          </div>
+          <div class="svc-body">
+            <div class="svc-icon si-gold">🔧</div>
+            <div class="svc-name">Tooth Extraction</div>
+            <p class="svc-desc">Comfortable, minimally invasive extractions including wisdom tooth removal with complete pain management.</p>
+            <div class="svc-arrow">Learn More →</div>
+          </div>
+        </div>
+        <div class="svc-card scroll-reveal">
+          <div class="svc-img-wrap">
+            <img src="clinic/services/paediatric.jpg" alt="Paediatric Dentistry" loading="lazy">
+            <div class="svc-img-badge"><span class="svc-badge-icon">👶</span> Paediatric Dentistry</div>
+          </div>
+          <div class="svc-body">
+            <div class="svc-icon si-teal">👶</div>
+            <div class="svc-name">Paediatric Dentistry</div>
+            <p class="svc-desc">Gentle, child-friendly care creating positive dental experiences and great habits from an early age.</p>
+            <div class="svc-arrow">Learn More →</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY CHOOSE US -->
+  <section class="why-us" id="why-us">
+    <div class="why-us-deco"></div>
+    <div class="why-grid-top"></div>
+    <div class="container why-content">
+      <div class="why-header scroll-reveal">
+        <div class="section-label" style="background:rgba(14,165,160,0.14);color:var(--teal-light);">Why Choose Us</div>
+        <h2 class="section-title">The Dental Square Difference</h2>
+        <p class="section-subtitle">We don't just treat teeth — we build trust, deliver results, and create experiences that keep patients coming back for life.</p>
+      </div>
+      <div class="why-grid">
+        <div class="why-card scroll-reveal">
+          <div class="why-icon">🏆</div>
+          <div class="why-title">Perfect 5-Star Rating</div>
+          <p class="why-desc">Consistently rated 5.0 on Google across 329+ genuine reviews. Our reputation is built one satisfied patient at a time.</p>
+        </div>
+        <div class="why-card scroll-reveal">
+          <div class="why-icon">💡</div>
+          <div class="why-title">Advanced Technology</div>
+          <p class="why-desc">Equipped with the latest diagnostic and treatment technology including laser dentistry for faster, more comfortable procedures.</p>
+        </div>
+        <div class="why-card scroll-reveal">
+          <div class="why-icon">❤️</div>
+          <div class="why-title">Gentle &amp; Compassionate</div>
+          <p class="why-desc">Known for a calm, polite approach. Every patient receives sufficient time, detailed explanations, and genuine care.</p>
+        </div>
+        <div class="why-card scroll-reveal">
+          <div class="why-icon">✅</div>
+          <div class="why-title">Strict Hygiene Standards</div>
+          <p class="why-desc">Clean, authentic infrastructure with proper sterilization and maintained protocols — your safety is our highest priority.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="gallery" id="gallery">
+    <div class="container">
+      <div class="gallery-header scroll-reveal">
+        <div class="section-label">Our Clinic</div>
+        <h2 class="section-title">A Clinic Built For Your Comfort</h2>
+        <p class="section-subtitle">Clean, modern, and welcoming — every corner of Dental Square is designed to make you feel at ease from the moment you walk in.</p>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item scroll-reveal-left">
+          <img src="clinic/reception.png" alt="Dental Square reception" loading="lazy">
+          <div class="gallery-overlay"><div class="gallery-label">Modern Reception Area</div></div>
+        </div>
+        <div class="gallery-item scroll-reveal">
+          <img src="clinic/treatment-room.png" alt="Treatment room" loading="lazy">
+          <div class="gallery-overlay"><div class="gallery-label">Advanced Treatment Room</div></div>
+        </div>
+        <div class="gallery-item scroll-reveal">
+          <img src="clinic/consultation.png" alt="Doctor's consultation room" loading="lazy">
+          <div class="gallery-overlay"><div class="gallery-label">Consultation Suite</div></div>
+        </div>
+        <div class="gallery-item scroll-reveal">
+          <img src="clinic/treatment-room2.png" alt="Treatment room with equipment" loading="lazy">
+          <div class="gallery-overlay"><div class="gallery-label">Treatment Bay</div></div>
+        </div>
+        <div class="gallery-item scroll-reveal-right">
+          <img src="clinic/interior.png" alt="Clinic interior" loading="lazy">
+          <div class="gallery-overlay"><div class="gallery-label">Premium Interior</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BEFORE & AFTER -->
+  <section class="before-after" id="results">
+    <div class="ba-deco"></div>
+    <div class="container ba-content">
+      <div class="ba-grid">
+        <div class="ba-left scroll-reveal-left">
+          <div class="section-label" style="background:rgba(14,165,160,0.14);color:var(--teal-light);">Real Results</div>
+          <h2 class="section-title">Smile Transformations That Speak for Themselves</h2>
+          <p class="section-subtitle" style="color:rgba(255,255,255,0.6);">Our patients' results are the best testament to our quality. See the difference expert dental care at Dental Square can make.</p>
+          <div class="ba-points">
+            <div class="ba-point">
+              <div class="ba-point-icon">
+                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              Professional teeth whitening &amp; cleaning
+            </div>
+            <div class="ba-point">
+              <div class="ba-point-icon">
+                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              Advanced orthodontic alignment
+            </div>
+            <div class="ba-point">
+              <div class="ba-point-icon">
+                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              Complete smile makeovers
+            </div>
+            <div class="ba-point">
+              <div class="ba-point-icon">
+                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              Implant &amp; restoration procedures
+            </div>
+          </div>
+        </div>
+        <div class="scroll-reveal-right">
+          <div class="ba-img-frame">
+            <img src="clinic/before-after2.png" alt="Dental Square before and after smile transformation" loading="lazy">
+            <div class="ba-img-caption">
+              <span class="ba-pill ba-pill-before">Before</span>
+              <span class="ba-pill ba-pill-after">After ✓</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DOCTORS -->
+  <section class="doctors" id="doctors">
+    <div class="container">
+      <div class="doctors-header scroll-reveal">
+        <div class="section-label">Meet Our Specialists</div>
+        <h2 class="section-title">Expert Hands, Caring Hearts</h2>
+        <p class="section-subtitle">Our team of experienced dental specialists brings skill, knowledge, and heartfelt dedication to every patient.</p>
+      </div>
+      <div class="doctors-grid">
+        <div class="doctor-card scroll-reveal-left">
+          <div class="doctor-photo">
+            <div class="doctor-photo-icon">
+              <svg width="52" height="52" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="1.5"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+            </div>
+            <div class="doctor-overlay"></div>
+          </div>
+          <div class="doctor-body">
+            <div class="doctor-name">Dr. Akash Lavate</div>
+            <div class="doctor-title-tag">BDS, MDS — Orthodontist &amp; Implantologist</div>
+            <p class="doctor-desc">Known for his gentle, patient approach and thorough explanations. He gives every patient sufficient time and ensures they fully understand their treatment before proceeding — earning a perfect 5-star reputation.</p>
+            <div class="doctor-tags">
+              <span class="dtag">Orthodontics</span>
+              <span class="dtag">Dental Implants</span>
+              <span class="dtag">Cosmetic Dentistry</span>
+              <span class="dtag">Laser Dentistry</span>
+            </div>
+          </div>
+        </div>
+        <div class="doctor-card scroll-reveal-right">
+          <div class="doctor-photo" style="background:linear-gradient(135deg,#0d3b6e 0%,#0ea5a0 55%,#0891b2 100%);">
+            <div class="doctor-photo-icon">
+              <svg width="52" height="52" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="1.5"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+            </div>
+            <div class="doctor-overlay"></div>
+          </div>
+          <div class="doctor-body">
+            <div class="doctor-name">Dr. Priyanka Lavate</div>
+            <div class="doctor-title-tag">BDS, MDS — Oral Surgeon &amp; Prosthodontist</div>
+            <p class="doctor-desc">Performs complex procedures with exceptional precision and care. Patients consistently praise her for her availability, warmth, and gentle reassurance — even following up personally after treatment.</p>
+            <div class="doctor-tags">
+              <span class="dtag">Oral Surgery</span>
+              <span class="dtag">Prosthodontics</span>
+              <span class="dtag">Root Canal</span>
+              <span class="dtag">Extractions</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials" id="reviews">
+    <div class="container">
+      <div class="testimonials-header scroll-reveal">
+        <div class="section-label">Patient Reviews</div>
+        <h2 class="section-title">What Our Patients Say</h2>
+        <p class="section-subtitle">Real experiences from real patients. Our 5.0 Google rating is the result of genuine care and outstanding outcomes, every visit.</p>
+        <div class="google-proof">
+          <span class="g-letter">G</span>
+          5.0 out of 5
+          <span class="g-stars">★★★★★</span>
+          · 329 Google Reviews
+        </div>
+      </div>
+      <div class="reviews-grid">
+        <div class="review-card scroll-reveal">
+          <div class="review-stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+          <div class="review-quote">"</div>
+          <p class="review-text">Dr. Akash is very simple and gentle in his behavior. Gives sufficient time to each patient. The most important thing I like is, he explains each and every detail of the problem and procedure.</p>
+          <div class="review-footer">
+            <div class="reviewer-av">K</div>
+            <div>
+              <div class="reviewer-name">Kedar Khot</div>
+              <div class="reviewer-meta">Verified Google Review</div>
+            </div>
+          </div>
+        </div>
+        <div class="review-card scroll-reveal">
+          <div class="review-stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+          <div class="review-quote">"</div>
+          <p class="review-text">Great experience at Dental Square! Dr. Akash is very polite and explained everything thoroughly and patiently. Highly recommend for anyone looking for quality dental care in Sangli.</p>
+          <div class="review-footer">
+            <div class="reviewer-av" style="background:linear-gradient(135deg,#0ea5a0,#0891b2);">S</div>
+            <div>
+              <div class="reviewer-name">Shamal Patil</div>
+              <div class="reviewer-meta">Verified Google Review</div>
+            </div>
+          </div>
+        </div>
+        <div class="review-card scroll-reveal">
+          <div class="review-stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+          <div class="review-quote">"</div>
+          <p class="review-text">Dr. Akash is very patient and polite with all his patients. I got scaling and cleaning done from him and he did it perfectly. I would definitely recommend him for any dental needs.</p>
+          <div class="review-footer">
+            <div class="reviewer-av" style="background:linear-gradient(135deg,#d4a017,#c8840a);">K</div>
+            <div>
+              <div class="reviewer-name">Kashish Sharma</div>
+              <div class="reviewer-meta">Verified Google Review</div>
+            </div>
+          </div>
+        </div>
+        <div class="review-card scroll-reveal">
+          <div class="review-stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+          <div class="review-quote">"</div>
+          <p class="review-text">I did my tooth extraction from Dr. Priyanka ma'am. It went so smoothly. After extraction whenever I called, she always suggested things very politely. The clinic is maintained very cleanly and hygienically.</p>
+          <div class="review-footer">
+            <div class="reviewer-av" style="background:linear-gradient(135deg,#1a3a5c,#0b2447);">P</div>
+            <div>
+              <div class="reviewer-name">Pratibha Budale</div>
+              <div class="reviewer-meta">Verified Google Review</div>
+            </div>
+          </div>
+        </div>
+        <div class="review-card scroll-reveal">
+          <div class="review-stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+          <div class="review-quote">"</div>
+          <p class="review-text">The best dental clinic in Sangli. Modern infrastructure, latest equipment, and the most caring doctors. My entire family visits Dental Square. Highly recommended to everyone!</p>
+          <div class="review-footer">
+            <div class="reviewer-av" style="background:linear-gradient(135deg,#059669,#047857);">R</div>
+            <div>
+              <div class="reviewer-name">Rajesh Kulkarni</div>
+              <div class="reviewer-meta">Verified Google Review</div>
+            </div>
+          </div>
+        </div>
+        <div class="review-card scroll-reveal">
+          <div class="review-stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+          <div class="review-quote">"</div>
+          <p class="review-text">Excellent treatment for my braces. Dr. Akash monitors every step and is always available to answer questions. The results were amazing — my smile has completely transformed!</p>
+          <div class="review-footer">
+            <div class="reviewer-av" style="background:linear-gradient(135deg,#7c3aed,#6d28d9);">A</div>
+            <div>
+              <div class="reviewer-name">Anita Desai</div>
+              <div class="reviewer-meta">Verified Google Review</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HAPPY PATIENT STRIP -->
+  <section class="patient-strip" id="patient">
+    <div class="container">
+      <div class="ps-grid">
+        <div class="ps-img scroll-reveal-left">
+          <img src="clinic/patient.png" alt="Happy patient at Dental Square" loading="lazy">
+          <div class="ps-img-badge">
+            <span class="wave-emoji">👋</span>
+            <span class="ps-img-badge-text">Happy Patients Every Day</span>
+          </div>
+        </div>
+        <div class="scroll-reveal-right">
+          <div class="section-label">Our Results</div>
+          <h2 class="section-title">Smiles That Last a Lifetime</h2>
+          <p class="section-subtitle">From children to adults, we deliver outstanding care that puts patients at ease and produces results they're proud to show off.</p>
+          <div class="ps-stat-row">
+            <div class="ps-stat">
+              <div class="ps-stat-num">329+</div>
+              <div class="ps-stat-label">5-Star Reviews</div>
+            </div>
+            <div class="ps-stat">
+              <div class="ps-stat-num">5.0</div>
+              <div class="ps-stat-label">Google Rating</div>
+            </div>
+            <div class="ps-stat">
+              <div class="ps-stat-num">13+</div>
+              <div class="ps-stat-label">Years Trusted</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- APPOINTMENT -->
+  <section class="appointment" id="appointment">
+    <div class="appt-deco"></div>
+    <div class="container">
+      <div class="appt-grid">
+        <div class="scroll-reveal-left">
+          <div class="section-label" style="background:rgba(14,165,160,0.14);color:var(--teal-light);">Book Appointment</div>
+          <h2 class="section-title">Ready to Transform Your Smile?</h2>
+          <p class="section-subtitle">Schedule your visit today. Open 7 days a week to fit your schedule — same-day appointments often available.</p>
+          <div class="appt-info">
+            <div class="appt-row">
+              <div class="appt-row-icon">
+                <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.28h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.96a16 16 0 0 0 6 6l.95-.95a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              </div>
+              <div class="appt-row-text">
+                <strong>Call for Appointment</strong>
+                099756 40120 · Available 9 AM – 5 PM
+              </div>
+            </div>
+            <div class="appt-row">
+              <div class="appt-row-icon">
+                <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+              </div>
+              <div class="appt-row-text">
+                <strong>Clinic Hours</strong>
+                Monday to Sunday · 9:00 AM – 5:00 PM
+              </div>
+            </div>
+            <div class="appt-row">
+              <div class="appt-row-icon">
+                <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div class="appt-row-text">
+                <strong>Location</strong>
+                Shreyas Apt., Trikoni Bagh Rd, Sangli 416416
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="scroll-reveal-right">
+          <div class="appt-form">
+            <div class="form-title">Book Your Visit</div>
+            <div id="form-success" style="display:none;text-align:center;padding:32px 20px;">
+              <div style="font-size:2.5rem;margin-bottom:12px;">✅</div>
+              <div style="font-family:'Playfair Display',serif;font-size:1.4rem;color:#fff;font-weight:700;margin-bottom:10px;">Request Received!</div>
+              <div style="color:rgba(255,255,255,0.65);font-size:0.92rem;line-height:1.7;margin-bottom:24px;">One last step — tap the button below to send your details to us on WhatsApp so we can confirm your appointment quickly!</div>
+              <a id="wa-confirm-btn" href="#" target="_blank" rel="noopener"
+                style="display:inline-flex;align-items:center;gap:10px;background:#25d366;color:#fff;font-weight:700;font-size:0.95rem;padding:14px 28px;border-radius:50px;text-decoration:none;box-shadow:0 4px 20px rgba(37,211,102,0.4);transition:all 0.3s;">
+                <span style="font-size:1.2rem;">💬</span> Confirm on WhatsApp
+              </a>
+              <div style="color:rgba(255,255,255,0.35);font-size:0.78rem;margin-top:16px;">Opens WhatsApp with your details pre-filled</div>
+            </div>
+            <form id="appt-form">
+              <div class="form-row2">
+                <div class="form-group">
+                  <label class="form-label" for="fname">First Name *</label>
+                  <input type="text" id="fname" name="firstName" class="form-inp" placeholder="First name" required>
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="lname">Last Name *</label>
+                  <input type="text" id="lname" name="lastName" class="form-inp" placeholder="Last name" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="phone">Phone Number *</label>
+                <input type="tel" id="phone" name="phone" class="form-inp" placeholder="Your mobile number" required>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="service">Service Required</label>
+                <select id="service" name="service" class="form-sel">
+                  <option value="" disabled selected>Select a service</option>
+                  <option>Dental Implants</option>
+                  <option>Orthodontics / Braces</option>
+                  <option>Laser Dentistry</option>
+                  <option>Root Canal Treatment</option>
+                  <option>Cosmetic Dentistry</option>
+                  <option>Scaling &amp; Cleaning</option>
+                  <option>Tooth Extraction</option>
+                  <option>Fixed Prosthodontics</option>
+                  <option>Paediatric Dentistry</option>
+                  <option>General Checkup</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="date">Preferred Date</label>
+                <input type="date" id="date" name="date" class="form-inp">
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="msg">Message</label>
+                <textarea id="msg" name="message" class="form-ta" placeholder="Describe your concerns or requests…"></textarea>
+              </div>
+              <div id="form-error" style="display:none;color:#f87171;font-size:0.85rem;margin-bottom:12px;"></div>
+              <button type="submit" class="form-btn" id="form-submit-btn">Send Appointment Request →</button>
+            </form>
+            <script>
+              document.getElementById('appt-form').addEventListener('submit', function(e) {
+                e.preventDefault();
+                const btn = document.getElementById('form-submit-btn');
+                btn.textContent = 'Processing…';
+                btn.disabled = true;
+                const data = {
+                  firstName: document.getElementById('fname').value,
+                  lastName: document.getElementById('lname').value,
+                  phone: document.getElementById('phone').value,
+                  service: document.getElementById('service').value,
+                  date: document.getElementById('date').value,
+                  message: document.getElementById('msg').value,
+                };
+                const svc = data.service || 'Not specified';
+                const dt = data.date || 'Flexible';
+                const note = data.message ? '\nNote: ' + data.message : '';
+                const waText = encodeURIComponent(
+                  'Hello Dental Square! I would like to book an appointment.\n\n' +
+                  'Name: ' + data.firstName + ' ' + data.lastName + '\n' +
+                  'Phone: ' + data.phone + '\n' +
+                  'Service: ' + svc + '\n' +
+                  'Preferred Date: ' + dt +
+                  note
+                );
+                document.getElementById('wa-confirm-btn').href = 'https://wa.me/919975640120?text=' + waText;
+                document.getElementById('appt-form').style.display = 'none';
+                document.getElementById('form-success').style.display = 'block';
+                if (false) {
+                  // no-server fallback placeholder
+                  btn.textContent = 'Send Appointment Request →';
+                  btn.disabled = false;
+                }
+              });
+            </script>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT & HOURS -->
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <div class="contact-header scroll-reveal">
+        <div class="section-label">Find Us</div>
+        <h2 class="section-title">Contact &amp; Clinic Hours</h2>
+        <p class="section-subtitle">Open every day — walk in or call ahead. We're always ready to welcome you to Dental Square.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="scroll-reveal-left">
+          <div class="hours-card">
+            <div class="hours-card-header">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+              <div>
+                <div class="hours-card-title">Clinic Hours</div>
+                <div class="hours-card-sub">Open 7 days a week</div>
+              </div>
+            </div>
+            <table class="hours-table">
+              <tr class="hours-row"><td>Monday</td><td>9:00 AM – 5:00 PM</td></tr>
+              <tr class="hours-row"><td>Tuesday</td><td>9:00 AM – 5:00 PM</td></tr>
+              <tr class="hours-row"><td>Wednesday</td><td>9:00 AM – 5:00 PM</td></tr>
+              <tr class="hours-row hours-today-row"><td>Thursday ●</td><td>9:00 AM – 5:00 PM</td></tr>
+              <tr class="hours-row"><td>Friday</td><td>9:00 AM – 5:00 PM</td></tr>
+              <tr class="hours-row"><td>Saturday</td><td>9:00 AM – 5:00 PM</td></tr>
+              <tr class="hours-row"><td>Sunday</td><td>9:00 AM – 5:00 PM</td></tr>
+            </table>
+          </div>
+        </div>
+        <div class="scroll-reveal-right">
+          <div class="contact-info-stack">
+            <div class="contact-card">
+              <div class="contact-card-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.28h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.96a16 16 0 0 0 6 6l.95-.95a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              </div>
+              <div>
+                <div class="contact-card-title">Phone</div>
+                <div class="contact-card-value"><a href="tel:+919975640120">+91 099756 40120</a></div>
+              </div>
+            </div>
+            <div class="contact-card">
+              <div class="contact-card-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div>
+                <div class="contact-card-title">Address</div>
+                <div class="contact-card-value">Shreyas Apartment, Trikoni Bagh Road, near Ushahkal Nursing Home, above Kesari News Paper Office, Nishant Colony, Sangli–Miraj–Kupwad, Maharashtra 416416</div>
+                <a href="https://maps.google.com/?q=Dental+Square+Multispeciality+Dental+Clinic+Sangli" target="_blank" rel="noopener" class="map-btn">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                  Get Directions
+                </a>
+              </div>
+            </div>
+            <div class="contact-card">
+              <div class="contact-card-icon" style="background:linear-gradient(135deg,#25d366,#128c7e);">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+              </div>
+              <div>
+                <div class="contact-card-title">WhatsApp</div>
+                <div class="contact-card-value">
+                  <a href="https://wa.me/919975640120" target="_blank" rel="noopener">Chat with us on WhatsApp →</a>
+                </div>
+              </div>
+            </div>
+            <div class="contact-card">
+              <div class="contact-card-icon" style="background:linear-gradient(135deg,#4285f4,#1a73e8);">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 21 12 17.77 5.82 21 7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              </div>
+              <div>
+                <div class="contact-card-title">Google Reviews</div>
+                <div class="contact-card-value">Rated 5.0 ★ with 329+ reviews — <a href="https://www.google.com/search?q=Dental+Square+Multispeciality+Dental+Clinic+Sangli" target="_blank" rel="noopener">Read on Google →</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA STRIP -->
+  <div class="cta-strip">
+    <div class="container">
+      <div class="cta-inner">
+        <div>
+          <div class="cta-text-label">Don't Wait — Your Smile Deserves It</div>
+          <div class="cta-title">Book Your Appointment Today</div>
+        </div>
+        <div class="cta-actions">
+          <a href="tel:+919975640120" class="btn btn-white">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.28h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.96a16 16 0 0 0 6 6l.95-.95a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            Call 099756 40120
+          </a>
+          <a href="#appointment" class="btn-cta-outline">Book Online →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="logo">
+            <img src="clinic/dental-square-logo.png" alt="Dental Square" class="logo-img-footer">
+          </div>
+          <p class="footer-brand-desc">Best Orthodontic Centre &amp; Implant Clinic in Sangli. Delivering exceptional dental care for over 13 years with compassion, expertise, and state-of-the-art technology.</p>
+          <div class="footer-social">
+            <a href="#" class="soc-btn" title="Facebook">f</a>
+            <a href="#" class="soc-btn" title="Instagram">ig</a>
+            <a href="https://wa.me/919975640120" class="soc-btn" title="WhatsApp">W</a>
+            <a href="https://maps.google.com/?q=Dental+Square+Sangli" target="_blank" class="soc-btn" title="Google Maps">G</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#services">Dental Implants</a></li>
+            <li><a href="#services">Orthodontics</a></li>
+            <li><a href="#services">Laser Dentistry</a></li>
+            <li><a href="#services">Root Canal</a></li>
+            <li><a href="#services">Cosmetic Dentistry</a></li>
+            <li><a href="#services">Scaling &amp; Cleaning</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#gallery">Clinic Gallery</a></li>
+            <li><a href="#doctors">Our Doctors</a></li>
+            <li><a href="#reviews">Patient Reviews</a></li>
+            <li><a href="#appointment">Book Appointment</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <div class="footer-contact-list">
+            <div class="fci">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <p>Shreyas Apartment, Trikoni Bagh Road, near Ushahkal Nursing Home, Sangli – 416416</p>
+            </div>
+            <div class="fci">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.28h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.96a16 16 0 0 0 6 6l.95-.95a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              <a href="tel:+919975640120">+91 099756 40120</a>
+            </div>
+            <div class="fci">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+              <p>Mon – Sun: 9:00 AM – 5:00 PM</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 Dental Square Multispeciality Dental Clinic, Sangli. All rights reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- FLOATING BUTTONS -->
+  <div class="float-cta">
+    <a href="https://wa.me/919975640120" class="fbtn fbtn-wa" target="_blank" rel="noopener">
+      <span class="fbtn-icon">💬</span>
+      <span>WhatsApp</span>
+    </a>
+  </div>
+
+</body>
+</html>
